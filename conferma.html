@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Conferma della richiesta | Manfredi Bonanno</title>
+  <meta name="theme-color" content="#11224a">
+  <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-tight-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__name">Manfredi Bonanno</span>
+      <span class="brand__tag">Sistemi di Gestione</span>
+    </a>
+    <nav class="nav" aria-label="Sezioni">
+      <a href="index.html#approccio">Approccio</a>
+      <a href="index.html#processi">Processi</a>
+      <a href="index.html#metodo">Metodo</a>
+      <a href="index.html#haccp">Settori</a>
+      <a href="index.html#ruolo">Affiancamento</a>
+      <a class="nav__cta" href="richiesta.html">Contatti</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- Arrivo dal link dell'email di conferma: conferma.js chiama il servizio Apps Script -->
+  <section class="section request">
+    <div class="wrap request__inner">
+      <div class="request__intro">
+        <h1 class="display">Conferma della richiesta</h1>
+        <p class="lead">Ultimo passaggio: la richiesta viene inoltrata appena confermata.</p>
+      </div>
+
+      <div class="form-done" id="esito" tabindex="-1" aria-live="polite">
+        <h2 id="esito-titolo">Conferma in corso…</h2>
+        <p id="esito-testo">Attendi qualche secondo.</p>
+        <p><a class="button" id="esito-azione" href="index.html" hidden>Torna al sito</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <span>Manfredi Bonanno · Consulente in sistemi di gestione<br>Via Guglielmo Marconi, 43035 Felino (PR)</span>
+    <span><a href="mailto:contatti@manfredibonanno.it">contatti@manfredibonanno.it</a> &nbsp; <a href="https://www.linkedin.com/in/manfredi-bonanno-01285537/" target="_blank" rel="noopener">LinkedIn</a> &nbsp; <a href="privacy.html">Privacy</a> &nbsp; P. IVA 02275970347</span>
+  </div>
+</footer>
+
+<script src="conferma.js"></script>
+</body>
+</html>
