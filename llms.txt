@@ -1,0 +1,34 @@
+# Manfredi Bonanno · Sistemi di Gestione
+
+> Manfredi Bonanno è un consulente in sistemi di gestione (management consultant) con sede a Felino (Parma), in Emilia-Romagna. Da oltre 25 anni affianca le imprese manifatturiere, in Emilia-Romagna e in tutta Italia, nel controllo dei processi, dai requisiti del cliente alla consegna, e le accompagna, se serve, alla certificazione.
+
+Sito ufficiale: https://manfredibonanno.it/
+Profilo LinkedIn: https://www.linkedin.com/in/manfredi-bonanno-01285537/
+Contatti: contatti@manfredibonanno.it, oppure il modulo https://manfredibonanno.it/richiesta.html
+P. IVA 02275970347
+
+## Approccio
+
+- Approccio per processi: ogni attività riceve input, li trasforma e consegna output al processo successivo. Un'azienda è sotto controllo quando lo è ogni processo e ogni passaggio arriva a destinazione in modo corretto, completo e inequivocabile.
+- Tre famiglie di processi in un solo sistema: operativi, di supporto, di gestione e miglioramento.
+- Prima l'organizzazione, poi, se serve, il certificato. Il percorso: audit, mappatura e organizzazione dei processi, strumenti e controllo, certificazione.
+- Rischi e opportunità secondo ISO 9001:2026 e ISO 31000.
+
+## Ambiti e schemi seguiti
+
+- ISO 9001 (Quality Management Systems)
+- ISO 14001 (Environmental Management Systems)
+- Filiera alimentare: prerequisiti (GHP, GMP), HACCP e punti critici di controllo, per l'alimento e per il suo imballaggio
+- FSSC 22000 (Food Safety Management Systems)
+- BRCGS Global Standard Food Safety e Global Standard Packaging Materials
+- IATF 16949 (Automotive Quality Management Systems)
+- MID (Measuring Instruments Directive)
+- EN 1090 e ISO 3834 (strutture in acciaio e requisiti di qualità della saldatura)
+
+## Pagine
+
+- [Home](https://manfredibonanno.it/): approccio, processi, metodo, settori, profilo
+- [Sistemi qualità ISO 9001](https://manfredibonanno.it/certificazione-iso-9001.html): consulenza per sistemi di gestione per la qualità (prima l'organizzazione, poi, se serve, la certificazione), a chi serve, come si svolge l'affiancamento, domande frequenti
+- [BRCGS Packaging Materials](https://manfredibonanno.it/brcgs-packaging.html): consulenza per la certificazione BRCGS Global Standard Packaging Materials degli imballaggi, gestione dei pericoli a tutela del consumatore, obblighi MOCA (Reg. CE 1935/2004 e 2023/2006), cosa chiede lo standard, audit e gradi, domande frequenti
+- [Invia una richiesta](https://manfredibonanno.it/richiesta.html): modulo di contatto con conferma via email
+- [Informativa privacy](https://manfredibonanno.it/privacy.html)

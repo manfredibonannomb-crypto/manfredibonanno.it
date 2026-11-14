@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Elenco delle pagine da indicizzare. Aggiornare lastmod quando cambia una pagina. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://manfredibonanno.it/</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://manfredibonanno.it/certificazione-iso-9001.html</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://manfredibonanno.it/brcgs-packaging.html</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://manfredibonanno.it/richiesta.html</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+  <url>
+    <loc>https://manfredibonanno.it/privacy.html</loc>
+    <lastmod>2026-11-06</lastmod>
+  </url>
+</urlset>

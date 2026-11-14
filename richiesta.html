@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Invia una richiesta | Manfredi Bonanno</title>
+  <meta name="description" content="Invia una richiesta di contatto: riceverai un'email per confermarla.">
+  <link rel="canonical" href="https://manfredibonanno.it/richiesta.html">
+  <meta name="theme-color" content="#11224a">
+  <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-tight-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__name">Manfredi Bonanno</span>
+      <span class="brand__tag">Sistemi di Gestione</span>
+    </a>
+    <nav class="nav" aria-label="Sezioni">
+      <a href="index.html#approccio">Approccio</a>
+      <a href="index.html#processi">Processi</a>
+      <a href="index.html#metodo">Metodo</a>
+      <a href="index.html#haccp">Settori</a>
+      <a href="index.html#ruolo">Affiancamento</a>
+      <a class="nav__cta" href="richiesta.html" aria-current="page">Contatti</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section request">
+    <div class="wrap request__inner">
+      <div class="request__intro">
+        <h1 class="display">Da dove partiamo?</h1>
+        <p class="lead">Poche righe sull'azienda e su cosa si vorrebbe mettere sotto controllo. Dopo l'invio arriva un'email con un link di conferma: la richiesta viene inoltrata solo dopo il clic.</p>
+        <ol class="request__steps">
+          <li>Compila il modulo</li>
+          <li>Conferma dal link ricevuto via email</li>
+          <li>Ricevi risposta entro pochi giorni lavorativi</li>
+        </ol>
+      </div>
+
+      <!-- Modulo di richiesta: invio a Google Apps Script (vedi strumenti/modulo-contatti.gs) -->
+      <form class="form" id="request-form" novalidate>
+        <div class="field">
+          <label for="f-nome">Nome e cognome</label>
+          <input id="f-nome" name="nome" type="text" autocomplete="name" maxlength="100" required>
+        </div>
+        <div class="field">
+          <label for="f-azienda">Azienda <span class="field__opt">(facoltativo)</span></label>
+          <input id="f-azienda" name="azienda" type="text" autocomplete="organization" maxlength="120">
+        </div>
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" maxlength="160" required>
+          <p class="field__hint">Serve per confermare la richiesta e per la risposta.</p>
+        </div>
+        <div class="field">
+          <label for="f-messaggio">Messaggio</label>
+          <textarea id="f-messaggio" name="messaggio" rows="6" maxlength="3000" required></textarea>
+        </div>
+        <!-- Campo trappola per i bot: invisibile alle persone -->
+        <div class="field field--trap" aria-hidden="true">
+          <label for="f-sito">Sito web</label>
+          <input id="f-sito" name="sito" type="text" tabindex="-1" autocomplete="off">
+        </div>
+        <label class="check">
+          <input id="f-privacy" name="privacy" type="checkbox" required>
+          <span>Ho letto l'<a href="privacy.html">informativa privacy</a> e acconsento al trattamento dei dati per ricevere una risposta.</span>
+        </label>
+        <p class="form__error" id="form-error" role="alert" hidden></p>
+        <button class="button form__submit" type="submit">Invia la richiesta</button>
+      </form>
+
+      <div class="form-done" id="form-done" hidden tabindex="-1">
+        <h2>Controlla la tua email.</h2>
+        <p>È stato inviato un link di conferma a <strong id="done-email"></strong>. La richiesta parte solo dopo il clic sul link, valido 48 ore.</p>
+        <p class="form-done__hint">Non è arrivato nulla? Controlla nella cartella spam o nelle promozioni.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <span>Manfredi Bonanno · Consulente in sistemi di gestione<br>Via Guglielmo Marconi, 43035 Felino (PR)</span>
+    <span><a href="mailto:contatti@manfredibonanno.it">contatti@manfredibonanno.it</a> &nbsp; <a href="https://www.linkedin.com/in/manfredi-bonanno-01285537/" target="_blank" rel="noopener">LinkedIn</a> &nbsp; <a href="privacy.html">Privacy</a> &nbsp; P. IVA 02275970347</span>
+    <span class="foot__services">Servizi: <a href="certificazione-iso-9001.html">Sistemi qualità ISO 9001</a> &nbsp; <a href="brcgs-packaging.html">BRCGS Packaging Materials</a></span>
+  </div>
+</footer>
+
+<script src="richiesta.js"></script>
+</body>
+</html>
